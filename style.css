@@ -1,0 +1,43 @@
+body{
+    height: 100%;
+    overflow: hidden;
+    background-color:rgb(46, 0, 0) ;
+    font-family: Arial, sans-serif;
+}
+
+.chat-container{
+    display: flex;
+    gap: 0px;
+    align-items: center;
+    justify-content:space-between;
+    flex-direction: column;
+    height: 98vh;
+
+}
+
+#user-input{
+    border: none;
+    background-color: black;
+    height: 35px;
+    Width: 500px;
+    border-radius: 10px;
+    
+
+}
+
+::placeholder{
+    color: white;
+}
+
+.Bt-Msg{
+    border: none;
+    height:38px;
+    background-color:black;
+    color:white;
+    border-radius: 10px;
+}
+
+.Bt-Msg:hover{
+    background-color:rgb(150, 1, 1);
+    color: white;
+}
